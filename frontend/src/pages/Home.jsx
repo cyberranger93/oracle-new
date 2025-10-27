@@ -38,16 +38,13 @@ const Home = () => {
     <div className="min-h-screen">
       {/* Hero Section */}
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
-        {/* Video Background */}
-        <video
-          autoPlay
-          loop
-          muted
-          playsInline
-          className="absolute inset-0 w-full h-full object-cover"
-        >
-          <source src="https://cdn.pixabay.com/video/2023/05/11/161611-825901894_large.mp4" type="video/mp4" />
-        </video>
+        {/* Background Image (marble texture) */}
+        <div
+          className="absolute inset-0 w-full h-full bg-cover bg-center"
+          style={{
+            backgroundImage: 'url(https://images.unsplash.com/photo-1615874694520-474822394e73?w=1920&q=80)',
+          }}
+        ></div>
         
         {/* Overlay */}
         <div className="absolute inset-0 bg-black bg-opacity-50"></div>
