@@ -101,3 +101,110 @@
 #====================================================================================================
 # Testing Data - Main Agent and testing sub agent both should log testing data below this section
 #====================================================================================================
+
+user_problem_statement: "Test the Oracle Project Group backend APIs including root endpoint, projects, blog, and contact form endpoints with proper validation"
+
+backend:
+  - task: "Root API Endpoint"
+    implemented: true
+    working: true
+    file: "backend/server.py"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: false
+    status_history:
+      - working: true
+        agent: "testing"
+        comment: "GET /api/ endpoint tested successfully. Returns correct welcome message 'Oracle Project Group API'. Status 200 OK."
+
+  - task: "Projects API Endpoint"
+    implemented: true
+    working: true
+    file: "backend/server.py"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: false
+    status_history:
+      - working: true
+        agent: "testing"
+        comment: "GET /api/projects endpoint tested successfully. Returns 6 mock projects with correct structure (id, title, description, image, category, location, year). All projects have proper data including Toronto area locations and construction categories."
+
+  - task: "Blog API Endpoint"
+    implemented: true
+    working: true
+    file: "backend/server.py"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: false
+    status_history:
+      - working: true
+        agent: "testing"
+        comment: "GET /api/blog endpoint tested successfully. Returns 4 mock blog posts with correct structure (id, title, excerpt, image, date, readTime). All posts have construction-related content and proper timestamps."
+
+  - task: "Contact Form POST API"
+    implemented: true
+    working: true
+    file: "backend/server.py"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: false
+    status_history:
+      - working: true
+        agent: "testing"
+        comment: "POST /api/contact endpoint tested successfully. Accepts valid contact data with all required fields (name, email, phone, projectType, message) and optional budget. Returns created inquiry with UUID, timestamp, and proper data integrity. Email validation working correctly - rejects invalid email formats with 422 status."
+
+  - task: "Contact Inquiries GET API"
+    implemented: true
+    working: true
+    file: "backend/server.py"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: false
+    status_history:
+      - working: true
+        agent: "testing"
+        comment: "GET /api/contact endpoint tested successfully. Returns list of contact inquiries sorted by timestamp (newest first). Proper structure validation passed. Successfully retrieves inquiries created via POST endpoint."
+
+  - task: "MongoDB Integration"
+    implemented: true
+    working: true
+    file: "backend/server.py"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: false
+    status_history:
+      - working: true
+        agent: "testing"
+        comment: "MongoDB integration working correctly. Contact inquiries are properly saved to database and retrieved. Database connection established successfully using MONGO_URL environment variable."
+
+  - task: "API Validation and Error Handling"
+    implemented: true
+    working: true
+    file: "backend/server.py"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: false
+    status_history:
+      - working: true
+        agent: "testing"
+        comment: "Email validation working correctly using EmailStr from Pydantic. Invalid email formats properly rejected with 422 Unprocessable Entity status. Required field validation implemented."
+
+frontend:
+  # No frontend testing performed as per instructions
+
+metadata:
+  created_by: "testing_agent"
+  version: "1.0"
+  test_sequence: 1
+  run_ui: false
+
+test_plan:
+  current_focus:
+    - "All backend API endpoints tested and verified"
+  stuck_tasks: []
+  test_all: true
+  test_priority: "high_first"
+
+agent_communication:
+  - agent: "testing"
+    message: "Comprehensive backend API testing completed successfully. All 5 API endpoints (root, projects, blog, contact POST/GET) are working correctly. Created backend_test.py for automated testing. All endpoints return proper JSON responses with correct status codes. Email validation and MongoDB integration verified. No critical issues found."
