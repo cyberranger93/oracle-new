@@ -95,7 +95,7 @@ const Footer = () => {
             </p>
             <Link
               to="/contact"
-              className="mt-4 md:mt-0 px-6 py-2 bg-[#0074D9] text-white rounded-md hover:bg-[#0062b8] transition-colors btn-transition"
+              className="mt-4 md:mt-0 px-6 py-2 bg-[#D4AF37] text-white rounded-md hover:bg-[#C19A2B] transition-colors btn-transition"
             >
               Get a Quote
             </Link>
