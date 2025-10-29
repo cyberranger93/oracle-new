@@ -84,7 +84,7 @@ const Navigation = () => {
                 to={link.path}
                 className={`block px-3 py-2 rounded-md text-base font-medium ${
                   location.pathname === link.path
-                    ? 'bg-[#0074D9] text-white'
+                    ? 'bg-[#D4AF37] text-white'
                     : 'text-[#0F1115] hover:bg-gray-100'
                 }`}
                 onClick={() => setIsMobileMenuOpen(false)}
