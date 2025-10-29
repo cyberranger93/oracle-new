@@ -38,13 +38,16 @@ const Home = () => {
     <div className="min-h-screen">
       {/* Hero Section */}
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
-        {/* Background Image (marble texture) */}
-        <div
-          className="absolute inset-0 w-full h-full bg-cover bg-center"
-          style={{
-            backgroundImage: 'url(https://images.unsplash.com/photo-1615874694520-474822394e73?w=1920&q=80)',
-          }}
-        ></div>
+        {/* Video Background */}
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="absolute inset-0 w-full h-full object-cover"
+        >
+          <source src="https://customer-assets.emergentagent.com/job_build-marble/artifacts/mniulb4n_Wan_Extend_A%20group%20of%20five%20professionals%2C%20dressed%20in%20formal%20business%20suits%20and%20w.mp4" type="video/mp4" />
+        </video>
         
         {/* Overlay */}
         <div className="absolute inset-0 bg-black bg-opacity-50"></div>
