@@ -100,21 +100,21 @@ const Home = () => {
               </p>
               <div className="space-y-4 mb-8">
                 <div className="flex items-start space-x-3">
-                  <CheckCircle className="text-[#0074D9] flex-shrink-0 mt-1" size={24} />
+                  <CheckCircle className="text-[#D4AF37] flex-shrink-0 mt-1" size={24} />
                   <p className="text-gray-700">Over 20 years of construction excellence</p>
                 </div>
                 <div className="flex items-start space-x-3">
-                  <CheckCircle className="text-[#0074D9] flex-shrink-0 mt-1" size={24} />
+                  <CheckCircle className="text-[#D4AF37] flex-shrink-0 mt-1" size={24} />
                   <p className="text-gray-700">Licensed and insured professionals</p>
                 </div>
                 <div className="flex items-start space-x-3">
-                  <CheckCircle className="text-[#0074D9] flex-shrink-0 mt-1" size={24} />
+                  <CheckCircle className="text-[#D4AF37] flex-shrink-0 mt-1" size={24} />
                   <p className="text-gray-700">Commitment to quality and safety</p>
                 </div>
               </div>
               <Link
                 to="/about"
-                className="inline-flex items-center text-[#0074D9] font-semibold hover:text-[#0062b8] transition-colors"
+                className="inline-flex items-center text-[#D4AF37] font-semibold hover:text-[#C19A2B] transition-colors"
               >
                 Learn More About Us
                 <ArrowRight className="ml-2" size={20} />
@@ -167,7 +167,7 @@ const Home = () => {
                     <p className="text-gray-600 mb-4">{service.description}</p>
                     <Link
                       to="/services"
-                      className="inline-flex items-center text-[#0074D9] font-semibold hover:text-[#0062b8] transition-colors text-sm"
+                      className="inline-flex items-center text-[#D4AF37] font-semibold hover:text-[#C19A2B] transition-colors text-sm"
                     >
                       Learn More
                       <ArrowRight className="ml-2" size={16} />
@@ -180,7 +180,7 @@ const Home = () => {
           <div className="text-center mt-12">
             <Link
               to="/services"
-              className="inline-block px-8 py-3 bg-[#0074D9] text-white rounded-md hover:bg-[#0062b8] transition-all btn-transition font-semibold"
+              className="inline-block px-8 py-3 bg-[#D4AF37] text-white rounded-md hover:bg-[#C19A2B] transition-all btn-transition font-semibold"
             >
               See All Our Services
             </Link>
@@ -199,7 +199,7 @@ const Home = () => {
           </p>
           <Link
             to="/projects"
-            className="inline-block px-8 py-4 bg-[#C6A45B] text-white rounded-md hover:bg-[#b08f45] transition-all btn-transition font-semibold text-lg"
+            className="inline-block px-8 py-4 bg-[#C6A45B] text-white rounded-md hover:bg-[#B8860B] transition-all btn-transition font-semibold text-lg"
           >
             See All Our Projects
           </Link>
