@@ -21,10 +21,10 @@ const Home = () => {
       image: 'https://images.unsplash.com/photo-1508450859948-4e04fabaa4ea?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2MzR8MHwxfHNlYXJjaHwxfHxjb21tZXJjaWFsJTIwY29uc3RydWN0aW9ufGVufDB8fHx8MTc2MTYwMjM1M3ww&ixlib=rb-4.1.0&q=85',
     },
     {
-      icon: Gem,
-      title: 'Marble & Stone',
-      description: 'Precision marble and stone craftsmanship for luxury commercial projects.',
-      image: 'https://images.unsplash.com/photo-1701541985163-0d0d49011bd2?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzF8MHwxfHNlYXJjaHwxfHxtYXJibGUlMjBhcmNoaXRlY3R1cmV8ZW58MHx8fHwxNzYxNjAyMzYxfDA&ixlib=rb-4.1.0&q=85',
+      icon: ClipboardList,
+      title: 'General Contracting',
+      description: 'Comprehensive general contracting services for commercial construction projects.',
+      image: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&q=80',
     },
     {
       icon: ClipboardList,
