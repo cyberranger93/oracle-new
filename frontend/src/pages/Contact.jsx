@@ -101,7 +101,7 @@ const Contact = () => {
 
               <div className="space-y-6">
                 <div className="flex items-start space-x-4">
-                  <div className="w-12 h-12 bg-[#0074D9] rounded-full flex items-center justify-center flex-shrink-0">
+                  <div className="w-12 h-12 bg-[#D4AF37] rounded-full flex items-center justify-center flex-shrink-0">
                     <MapPin className="text-white" size={24} />
                   </div>
                   <div>
@@ -111,26 +111,26 @@ const Contact = () => {
                 </div>
 
                 <div className="flex items-start space-x-4">
-                  <div className="w-12 h-12 bg-[#0074D9] rounded-full flex items-center justify-center flex-shrink-0">
+                  <div className="w-12 h-12 bg-[#D4AF37] rounded-full flex items-center justify-center flex-shrink-0">
                     <Phone className="text-white" size={24} />
                   </div>
                   <div>
                     <h3 className="font-semibold text-[#0F1115] mb-1">Phone</h3>
-                    <a href="tel:+14165550123" className="text-gray-600 hover:text-[#0074D9] transition-colors">
+                    <a href="tel:+14165550123" className="text-gray-600 hover:text-[#D4AF37] transition-colors">
                       +1 (416) 555-0123
                     </a>
                   </div>
                 </div>
 
                 <div className="flex items-start space-x-4">
-                  <div className="w-12 h-12 bg-[#0074D9] rounded-full flex items-center justify-center flex-shrink-0">
+                  <div className="w-12 h-12 bg-[#D4AF37] rounded-full flex items-center justify-center flex-shrink-0">
                     <Mail className="text-white" size={24} />
                   </div>
                   <div>
                     <h3 className="font-semibold text-[#0F1115] mb-1">Email</h3>
                     <a
                       href="mailto:sarangan@oracleprojectgroup.com"
-                      className="text-gray-600 hover:text-[#0074D9] transition-colors"
+                      className="text-gray-600 hover:text-[#D4AF37] transition-colors"
                     >
                       sarangan@oracleprojectgroup.com
                     </a>
