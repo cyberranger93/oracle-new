@@ -93,7 +93,7 @@ const Home = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                Oracle Project Group is the leader in the commercial interior office construction industry. We specialize in delivering high-quality construction projects with precision and expertise.
+                Oracle Project Group is the leader in the construction management industry. We specialize in delivering high-quality construction projects with precision and expertise.
               </p>
               <div className="space-y-4 mb-8">
                 <div className="flex items-start space-x-3">
