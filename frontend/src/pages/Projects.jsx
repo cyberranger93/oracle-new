@@ -49,7 +49,7 @@ const Projects = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {loading ? (
             <div className="text-center py-12">
-              <div className="inline-block animate-spin rounded-full h-12 w-12 border-b-2 border-[#0074D9]"></div>
+              <div className="inline-block animate-spin rounded-full h-12 w-12 border-b-2 border-[#D4AF37]"></div>
               <p className="mt-4 text-gray-600">Loading projects...</p>
             </div>
           ) : (
@@ -66,7 +66,7 @@ const Projects = () => {
                       className="w-full h-full object-cover transition-transform duration-300 hover:scale-110"
                     />
                     <div className="absolute top-4 right-4">
-                      <span className="px-3 py-1 bg-[#0074D9] text-white text-xs font-semibold rounded-full">
+                      <span className="px-3 py-1 bg-[#D4AF37] text-white text-xs font-semibold rounded-full">
                         {project.category}
                       </span>
                     </div>

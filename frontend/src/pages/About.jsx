@@ -66,7 +66,7 @@ const About = () => {
                 Oracle Project Group is the leader in the commercial interior office construction industry. With over two decades of experience, we've established ourselves as the go-to partner for businesses seeking exceptional construction services.
               </p>
               <p className="text-lg text-gray-700 mb-4 leading-relaxed">
-                Our expertise spans interior fit-outs, design-build projects, marble and stone craftsmanship, and comprehensive project management. We pride ourselves on our ability to transform spaces into functional, beautiful environments that exceed our clients' expectations.
+                Our expertise spans interior fit-outs, design-build projects, general contracting, and comprehensive project management. We pride ourselves on our ability to transform spaces into functional, beautiful environments that exceed our clients' expectations.
               </p>
               <p className="text-lg text-gray-700 leading-relaxed">
                 Based in the Greater Toronto Area, we serve clients across Ontario with a commitment to quality, safety, and innovation in every project we undertake.
@@ -84,13 +84,13 @@ const About = () => {
       </section>
 
       {/* Stats Section */}
-      <section className="py-16 bg-[#0074D9]">
+      <section className="py-16 bg-[#D4AF37]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             {stats.map((stat, index) => (
               <div key={index} className="text-center">
                 <div className="text-4xl md:text-5xl font-bold text-white mb-2">{stat.number}</div>
-                <div className="text-lg text-blue-100">{stat.label}</div>
+                <div className="text-lg text-[#F6F6F7]">{stat.label}</div>
               </div>
             ))}
           </div>
@@ -112,7 +112,7 @@ const About = () => {
                   key={index}
                   className="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2"
                 >
-                  <div className="w-16 h-16 bg-[#0074D9] rounded-full flex items-center justify-center mb-6">
+                  <div className="w-16 h-16 bg-[#D4AF37] rounded-full flex items-center justify-center mb-6">
                     <IconComponent className="text-white" size={32} />
                   </div>
                   <h3 className="text-2xl font-bold text-[#0F1115] mb-4">{value.title}</h3>

@@ -49,7 +49,7 @@ const Blog = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {loading ? (
             <div className="text-center py-12">
-              <div className="inline-block animate-spin rounded-full h-12 w-12 border-b-2 border-[#0074D9]"></div>
+              <div className="inline-block animate-spin rounded-full h-12 w-12 border-b-2 border-[#D4AF37]"></div>
               <p className="mt-4 text-gray-600">Loading posts...</p>
             </div>
           ) : (
@@ -83,7 +83,7 @@ const Blog = () => {
                     </div>
                     <h2 className="text-3xl font-bold text-[#0F1115] mb-4">{post.title}</h2>
                     <p className="text-lg text-gray-700 mb-6 leading-relaxed">{post.excerpt}</p>
-                    <button className="inline-flex items-center text-[#0074D9] font-semibold hover:text-[#0062b8] transition-colors">
+                    <button className="inline-flex items-center text-[#D4AF37] font-semibold hover:text-[#C19A2B] transition-colors">
                       Read More
                       <ArrowRight className="ml-2" size={20} />
                     </button>
