@@ -49,9 +49,9 @@ const Navigation = () => {
                 to={link.path}
                 className={`text-sm font-medium transition-colors duration-200 ${
                   location.pathname === link.path
-                    ? 'text-[#0074D9]'
+                    ? 'text-[#D4AF37]'
                     : isScrolled
-                    ? 'text-[#0F1115] hover:text-[#0074D9]'
+                    ? 'text-[#0F1115] hover:text-[#D4AF37]'
                     : 'text-white hover:text-[#C6A45B]'
                 }`}
               >
