@@ -66,9 +66,9 @@ const Home = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center fade-up" style={{ animationDelay: '0.8s' }}>
             <Link
               to="/contact"
-              className="px-8 py-4 bg-[#0074D9] text-white rounded-md hover:bg-[#0062b8] transition-all btn-transition font-semibold text-lg inline-flex items-center justify-center"
+              className="px-8 py-4 bg-[#D4AF37] text-white rounded-md hover:bg-[#C19A2B] transition-all btn-transition font-semibold text-lg inline-flex items-center justify-center"
             >
-              Request a Quote
+              Request Consultation
               <ArrowRight className="ml-2" size={20} />
             </Link>
             <Link
