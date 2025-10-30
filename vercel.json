@@ -1,4 +1,18 @@
 {
   "buildCommand": "npm install --legacy-peer-deps && npm run build",
-  "outputDirectory": "build"
+  "outputDirectory": "build",
+  "rewrites": [
+    {
+      "source": "/api/projects",
+      "destination": "/api/projects.js"
+    },
+    {
+      "source": "/api/blog",
+      "destination": "/api/blog.js"
+    },
+    {
+      "source": "/api/backend",
+      "destination": "/api/backend.js"
+    }
+  ]
 }
