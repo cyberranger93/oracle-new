@@ -1,18 +1,9 @@
 {
-  "buildCommand": "npm install --legacy-peer-deps && npm run build",
-  "outputDirectory": "build",
-  "rewrites": [
-    {
-      "source": "/api/projects",
-      "destination": "/api/projects.js"
-    },
-    {
-      "source": "/api/blog",
-      "destination": "/api/blog.js"
-    },
-    {
-      "source": "/api/backend",
-      "destination": "/api/backend.js"
+  "buildCommand": "cd frontend && npm install --legacy-peer-deps && npm run build",
+  "outputDirectory": "frontend/build",
+  "functions": {
+    "api/**/*.js": {
+      "runtime": "nodejs18.x"
     }
-  ]
+  }
 }
